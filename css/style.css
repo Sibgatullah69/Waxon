@@ -1,0 +1,131 @@
+/* Common css starts  */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style-type:none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    padding: 0;
+    line-height: .8;
+}
+
+.clr{
+    clear: both;
+}
+.container{
+    margin: 0 auto;
+    width: 1170px;
+}
+/* Common css ends  */
+
+/* Header part starts  */
+#Header_part{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  
+}
+
+.logo{
+    padding-top: 25px;
+    float: left;
+    width: 270px;
+}
+
+.menu{
+    float: left;
+    width: 900px;
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+  
+}
+.menu ul li a{
+    color: white;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding-left: 30px;
+    line-height: 120px;
+    transition: all linear .4s;
+
+}
+.menu ul li a:hover{
+    color:rgb(224, 194, 115)
+}
+
+
+/* Header part ends  */
+ 
+/* banner part starts  */
+#banner{
+  
+    background: url(../img/Waxom-Hemepage.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+ 
+}
+.banner_overlay{
+    padding: 380px 0;
+    background: rgba(0, 0, 0, 0.7);
+
+}
+/* banner paet ends */
+
+/* banner contant starts  */
+.banner_contant{
+    text-align: center;   
+}
+
+.banner_contant h3{
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
+
+.banner_contant h1{
+    color: #ffffff;
+    font-size: 52px;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+    padding: 20px 0;
+}
+
+.banner_contant p{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 280px 52px;
+    line-height: 24px;
+}
+
+.banner_contant a{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    padding: 21px 37px 18px 37px;
+    border-bottom: 3px solid #736357;
+    background: #998675;
+    border-radius: 5px;
+    
+}
+.banner_contant a:hover{
+    color:rgb(224, 194, 115)
+}
+/* banner contant ends  */
